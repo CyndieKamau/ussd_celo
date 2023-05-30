@@ -1,0 +1,25 @@
+{
+  "name": "codejam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@celo/contractkit": "^4.1.0",
+    "africastalking": "^0.6.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "nodemon": "^2.0.22",
+    "ussd-router": "^0.1.6",
+    "web3": "^1.3.6"
+  }
+}
